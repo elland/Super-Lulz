@@ -1,0 +1,52 @@
+Modelos:
+	- Char
+	- Enemies
+    - Bosses
+	- Boosts
+	- Itens
+	- Blocks
+	
+Char:
+    - id
+    - pos_x
+    - pos_y
+    - sprite
+    - health
+        
+Enemy:
+    - id
+    - pos_x
+    - pos_y
+    - sprite
+    - name
+    - health
+    
+Boss:
+    - id
+    - pos_x
+    - pos_y
+    - sprite
+    - name
+    - health
+    
+Boost:
+    - id
+    - name
+    - what it does
+
+Item:
+    - id
+    - pos_x
+    - pos_y
+    - name
+    - sprite
+    - boost
+
+Block:
+    - id
+    - pos_x
+    - pos_y
+    - name
+    - sprite
+    
+    
